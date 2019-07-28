@@ -55,7 +55,7 @@ def generate_text(ctx):
 ctx = "apna"
 
 sentence = "" + ctx
-
+order = 4
 for ix in range(2000):
     
     nxt = generate_text(ctx)
